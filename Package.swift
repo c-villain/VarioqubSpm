@@ -9,24 +9,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "YandexMobileMetrica",
-            targets: ["YandexMobileMetrica"]
-        ),
-        .library(
-            name: "VQSwiftProtobuf",
-            targets: ["VQSwiftProtobuf"]
-        ),
-        .library(
-            name: "MetricaAdapterReflection",
-            targets: ["MetricaAdapterReflection"]
-        ),
-        .library(
-            name: "MetricaAdapter",
-            targets: ["MetricaAdapter"]
-        ),
-        .library(
             name: "Varioqub",
-            targets: ["Varioqub"]
+            targets: ["Varioqub", "YandexMobileMetrica", "VQSwiftProtobuf", "MetricaAdapterReflection"]
         ),
     ],
     targets: [
