@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "Varioqub",
-            targets: ["Varioqub", "YandexMobileMetrica", "VQSwiftProtobuf", "MetricaAdapterReflection"]
+            targets: ["Varioqub", "YandexMobileMetrica", "VQSwiftProtobuf", "MetricaAdapterReflection", "YandexMobileMetricaCrashes"]
         ),
     ],
     targets: [
@@ -38,6 +38,11 @@ let package = Package(
             name: "Varioqub",
             url: "https://github.com/c-villain/VarioqubSpm/releases/download/0.8.1/Varioqub.xcframework.zip",
             checksum: "1be9e1b2dc97a366340c1b393078451f8289dd95e580ef8360c1c43d0ad871e0"
+        ),
+        .binaryTarget(
+            name: "YandexMobileMetricaCrashes",
+            url: "https://github.com/c-villain/VarioqubSpm/releases/download/0.8.1/YandexMobileMetricaCrashes.xcframework.zip",
+            checksum: "ee1435b501d81b75c4f9e9a1376f5b3bd6705100683d9110609bbe7815483927"
         )
     ]
 )
