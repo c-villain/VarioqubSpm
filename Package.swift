@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "Varioqub",
-            targets: ["Varioqub", "YandexMobileMetrica", "VQSwiftProtobuf", "MetricaAdapterReflection", "YandexMobileMetricaCrashes"]
+            targets: ["Varioqub", "YandexMobileMetrica", "VQSwiftProtobuf", "MetricaAdapterReflection", "YandexMobileMetricaCrashes", "MetricaAdapter"]
         ),
     ],
     targets: [
